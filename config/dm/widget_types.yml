@@ -1,0 +1,13 @@
+dmWidgetTwitterFeed:
+
+  search:
+    cache:              false
+    public_name:        Twitter search
+
+  timeline:
+    cache:              false
+    public_name:        Twitter timeline
+    
+  public_timeline:
+    cache:              false
+    public_name:        Twitter public timeline

@@ -1,0 +1,12 @@
+js:
+
+  dmWidgetTwitterFeedPlugin:
+    
+    timeago:      jquery.timeago
+    view:         view
+    
+css:
+  
+  dmWidgetTwitterFeedPlugin:
+    
+    view:         view

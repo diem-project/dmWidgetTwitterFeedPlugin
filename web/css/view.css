@@ -1,0 +1,73 @@
+div.tweet_sprites {
+  height: 16px;
+  width: 48px;
+  display: inline;
+}
+
+div.tweet_sprites ul {
+  margin: 0;
+  display: inline;
+}
+
+div.tweet_sprites li {
+  display: inline;
+}
+
+div.tweet_sprites li a {
+  background-image: url(../images/twittericons.png);
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+  color: transparent;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+div.tweet_sprites li a.tweet_reply {
+  background-position: 0px 0px;
+}
+
+div.tweet_sprites li a.tweet_reply:hover {
+  background-position: -17px 0px;
+}
+
+div.tweet_sprites li a.tweet_retweet {
+  background-position: -81px 0px;
+}
+
+div.tweet_sprites li a.tweet_retweet:hover {
+  background-position: -97px 0px;
+}
+
+div.tweet_sprites li a.tweet_favorite {
+  background-position: -33px 0px;
+}
+
+div.tweet_sprites li a.tweet_favorite:hover {
+  background-position: -49px 0px;
+}
+
+img.twitter_profile_image {
+  float: left;
+}
+
+a.twitter_profile_screenname {
+  display: block;
+  font-weight: bold;
+}
+
+span.twitter_profile_name {
+  display: block;
+  font-size: 80%;
+}
+
+p.twitter_profile_description {
+  clear: both;
+  font-style: italic;
+}
+
+abbr.tweet_time {
+  font-size: 80%;
+  font-style: italic;
+  vertical-align: text-top;
+}
